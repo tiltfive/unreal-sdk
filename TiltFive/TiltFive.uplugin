@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.6.0",
+	"FriendlyName": "Tilt Five",
+	"Description": "Tilt Five Unreal Engine Integration",
+	"Category": "Other",
+	"CreatedBy": "Tilt Five, Inc.",
+	"CreatedByURL": "https://www.tiltfive.com/",
+	"DocsURL": "https://docs.tiltfive.com/t5_unreal_plugin.html",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.tiltfive.com/support",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TiltFive",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "TiltFiveInput",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "XRBase",
+			"Enabled": true
+		}
+	]
+}
